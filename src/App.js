@@ -5,7 +5,7 @@ import './App.css';
 import './reset.css';
 import PacmanLoader from "react-spinners/PacmanLoader";
 import { ClipLoader } from "react-spinners";
-const cities = ["seoul", "jeju", "Daegu", "Busan", "Yeosu", "Chuncheon"];
+const cities = ["Seoul", "Jeju", "Daegu", "Busan", "Yeosu", "Chuncheon"];
 
 // 1. 앱이 실행되자마자 현재 위치 기반의 날씨가 보인다.
 // 2. 날씨정보에는 도시, 섭씨 화씨 날씨상태가 보인다

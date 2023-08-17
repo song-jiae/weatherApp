@@ -1,23 +1,25 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Local History for Visual Studio Code
+.history/
 
-# testing
-/coverage
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
 
-# production
-/build
+# Support for Project snippet scope
+!.vscode/*.code-snippets
 
-# misc
+# nodejs
+node_modules
+dist/*
+build/*
+*.log
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
