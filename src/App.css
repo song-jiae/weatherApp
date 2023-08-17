@@ -1,0 +1,63 @@
+body, html{
+  background-color: rgb(224, 227, 230);
+}
+.wrap{
+  height: 100vh;
+  position: relative;
+}
+.main_container{
+  position: absolute;
+  padding: 2rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+  width:80%; 
+  height: 500px;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+  box-shadow: -6px -6px 14px rgba(255, 255, 255, 0.7),
+    6px 6px 10px rgba(0, 0, 0, 0.15);
+}
+.weater_box{
+  padding: 1rem;
+  margin-bottom: 2rem;
+  height: 100px;
+  background: #dde1e7;
+  box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, .288);
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+.weater_box::after{
+  content:'';
+  box-shadow: inset -3px -3px 7px#ffffff73, inset 3px 3px 5px rgba(94, 104, 121, .288);
+}
+.weater_box h2{font-weight: 700;font-size: 2rem; margin-right: 1rem;}
+.weater_box h3{font-size: 1rem;}
+.weater_box h4{font-size: 1rem;}
+.btn_wrap{display: flex; justify-content:space-between;
+flex-wrap: wrap; gap: 1rem;}
+.btn{margin-bottom: 1rem; width: 100%;}
+button{
+  margin-right: 10px;
+  width: 45%;
+  height: 60px;
+  border: 0;
+  font-size: 15px; font-weight: 600;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  box-shadow: -6px -6px 14px rgba(255, 255, 255, 0.7),
+    6px 6px 10px rgba(0, 0, 0, 0.15); color: rgb(74, 74, 74);
+}
+.btn:hover,
+button:hover {
+  box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.6),
+    2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.btn:active,
+button:hover {
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.7),
+    inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.pacman{position: absolute; left: 50%; top: 50%; z-index: 100; transform: translate(-50%, -50%);}
